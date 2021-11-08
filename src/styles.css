@@ -1,3 +1,29 @@
 body {
   font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #2c2c2c;
+}
+
+.btn {
+  border: none;
+  background: #dbf4ff;
+  padding: 2.5rem;
+  border-radius: 15%;
+  border: 1px solid #000;
+  font-size: 1.25rem;
+}
+
+.btn:hover,
+.btn:focus {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.text {
+  color: #fff;
+  font-size: 1.25rem;
 }
